@@ -1,0 +1,68 @@
+body {
+    background-color: #35033e; /* Fondo claro */
+    color: #000000; /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #35033e; /* Fondo del contenedor */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #800080; /* Morado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #9932CC; /* Morado claro */
+  }
+  
+  .heart {
+    margin-top: 20px;
+    fill: #ff4081; /* Color del corazón */
+    width: 100px;
+    height: 100px;
+    animation: draw 2s ease-in-out forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dasharray: 157;
+      stroke-dashoffset: 157;
+    }
+    to {
+      stroke-dasharray: 157;
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff4081; /* Color del texto */
+    text-align: center;
+  }
+  
+  .special-image {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  
